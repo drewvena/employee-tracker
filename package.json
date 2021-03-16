@@ -18,7 +18,6 @@
     "url": "https://github.com/drewvena/employee-tracker/issues"
   },
   "homepage": "https://github.com/drewvena/employee-tracker#readme",
-
   "dependencies": {
     "inquirer": "^8.0.0",
     "mysql2": "^2.2.5"

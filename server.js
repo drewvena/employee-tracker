@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const mysql = require ('mysql2');
+const {start} = require ('./util/inquire')
 
 
 const connection =  mysql.createConnection ({
@@ -9,3 +10,9 @@ const connection =  mysql.createConnection ({
     password:'imsweet6',
     database: 'employee'
 })
+
+function begin() {
+    start()
+}
+
+begin()
