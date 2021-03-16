@@ -1,2 +1,14 @@
 INSERT INTO department (id, name) values (1,'Management');
 INSERT INTO department (id, name) values (2,'Development');
+INSERT INTO department (id, name) values (3, 'Sales');
+INSERT INTO department (id, name) values (4, 'Engineering');
+INSERT INTO department (id, name) values (5, 'Legal');
+INSERT INTO department (id, name) values (6, 'Finance');
+INSERT INTO roles (id, title, salary, department_id) values (1, 'Sales Lead', 100000, 3);
+INSERT INTO roles (id, title, salary, department_id) values (2, 'Manager', 200000, 1);
+INSERT INTO roles (id, title, salary, department_id) values (3, 'Developer', 150000, 2);
+INSERT INTO roles (id, title, salary, department_id) values (4, 'Engineer', 200000, 4);
+INSERT INTO roles (id, title, salary, department_id) values (5, 'Lawyer', 250000, 5);
+INSERT INTO roles (id, title, salary, department_id) values (6, 'Accountant', 70000, 6);
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id ) values (1, 'Drew', 'Vena', 3, 2);
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id ) values (2, 'Richard', 'Wall', 2, NULL);
